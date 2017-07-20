@@ -24,13 +24,7 @@ exports.handler = function index(event, context, callback) {
  
             });
                             
-            context.succeed(
-                  generateResponse(
-                    buildSpeechletResponse(`Okay i trying to turn off`, true),
-                    {}
-                  )
-                )
-            break;  
+
 
 }
 
